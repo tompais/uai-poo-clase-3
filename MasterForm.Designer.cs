@@ -33,6 +33,10 @@
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -85,11 +89,55 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += Button5_Click;
             // 
+            // button6
+            // 
+            button6.Location = new Point(135, 292);
+            button6.Name = "button6";
+            button6.Size = new Size(98, 43);
+            button6.TabIndex = 5;
+            button6.Text = "Ej0012";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += Button6_Click;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(135, 341);
+            button7.Name = "button7";
+            button7.Size = new Size(98, 43);
+            button7.TabIndex = 6;
+            button7.Text = "Ej0013";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += Button7_Click;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(135, 390);
+            button8.Name = "button8";
+            button8.Size = new Size(98, 43);
+            button8.TabIndex = 7;
+            button8.Text = "Ej0014";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += Button8_Click;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(135, 439);
+            button9.Name = "button9";
+            button9.Size = new Size(98, 43);
+            button9.TabIndex = 8;
+            button9.Text = "Ej0029";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += Button9_Click;
+            // 
             // MasterForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(339, 307);
+            ClientSize = new Size(339, 535);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -107,5 +155,9 @@
         private Button button3;
         private Button button4;
         private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
     }
 }
